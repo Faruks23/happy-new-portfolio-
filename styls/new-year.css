@@ -15,15 +15,55 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  background-color: #F79D00;
+  background-color: #F0F0F0;
   align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .manu-item ul{
   display: flex;
   list-style: none;
 }
 .manu-item ul li{
-  padding: 20px;
+  padding: 5px;
   cursor: pointer;
   
 }
+li img{
+  width:40px;
+  border-radius: 50px;
+  margin-left: 70px;
+  transition: all 0.5s;
+}
+.s-1,.s-2,.s-3,.s-4{
+  margin-left: 110px;
+  position: absolute;
+  font-size: 15px;
+  padding: 3px;
+  background: #F0F0F0;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+border-radius: 5px;
+visibility: hidden;
+z-index: 1;
+transition: all 0.9s;
+}
+li img:hover{
+  filter: drop-shadow(0 0 0.75rem crimson);
+  width: 41px;
+ 
+  
+}
+li:hover .s-1{
+  visibility: visible;
+}
+li:hover .s-2{
+  visibility: visible;
+}
+li:hover .s-3{
+  visibility: visible;
+}
+li:hover .s-4{
+  visibility: visible;
+}
+
+
+/* search input */
