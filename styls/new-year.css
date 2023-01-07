@@ -280,7 +280,7 @@ color: #151414;
 .rect-img{
   
  background: linear-gradient(90deg, #F15B22 -30.75%, rgba(241, 91, 34, 0) 69.25%),
-    url(../images/watch.png);
+    url(./images/watch.png);
 border-radius: 8px;
 width: 1000px;
 height: 300px;
